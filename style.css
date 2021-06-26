@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, 
+    #b8c6db 0%, #f5f7fa 74%);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    width: 600px;
+    max-width: 100%;
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-family: inherit;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.image-area{
+    width: 100%;
+    justify-content: center;
+}
+
+.image{
+    margin: 1rem 0;
+    width: 180px;
+    border-radius: 50%;
+    border: 7px solid rgb(176,196,222);
+    
+}
+
+.content{
+    margin-bottom: 2rem;
+}
+
+.head{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    
+}
+.head .image-area{
+    float: left;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    
+}
+.head span{
+    padding-left: 20px;
+    font-size: 1rem;;
+}
+.head .image{
+    width: 100px;
+}
+.search-bar{
+    
+    margin-left: 2rem;
+    align-items: center;
+    float: right;
+    
+}
+
+.content{
+    margin-top: 2rem;
+    display: grid;
+    width: 100%;
+    text-align: center;
+    float: left;
+    background-color: inherit;
+    border: 4px solid linen;
+}
+.content >div{
+    padding: 1rem;
+    float: left;
+    text-align: left;
+}
+.add-task{
+    margin: 1rem 0;
+    width: 100%;
+}
+.add-task input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    
+}
+.add-task label{
+    font-size: 0.7rem;
+    display: none;
+    
+}
+
+
+.btn{
+    background-color: lightseagreen;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: inherit;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.row{
+    padding-bottom: 2rem;
+    border-bottom: 3px solid rgb(255, 220, 252);
+}
+.clear{
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+
+}
+.tasks{
+    padding-bottom: 2rem;
+    border-bottom: 3px solid rgb(255, 220, 252);
+    margin-bottom: 1rem;
+}
+.card-action a{
+    background-color: purple;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+

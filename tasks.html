@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task List</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+
+            <div class="head">
+                <div class="image-area">
+
+                    <img src="image/bg.jpg" alt="Personal image" class="image">
+                    <span id="name">Name</span>
+
+                </div>
+                <div class="search-bar">
+                    <span>Hello buddy, enjoy</span>
+                   
+
+                </div>
+            </div>
+            <div class="content">
+                <div class="content-wrapper">
+                    <div class="card-content">
+                        <span class="tasks-title">Task List</span>
+                        <div class="row">
+                            <form id="task-form">
+                                <div class="add-task">
+                                    <label id="label" for="task">New Task</label>
+                                    <input type="text" name="task" id="task" placeholder="New Task">
+
+                                </div>
+                                <input id="addTask" type="submit" value="Add Task" class="btn">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <div class="tasks">
+                            <h5 id="title">Available Tasks</h5>
+                            <div class="add-task">
+                                <label id="label-filter" for="filter">Filter Tasks</label>
+                                <input type="text" name="filter" id="filter" placeholder="Filter Tasks">
+
+                            </div>
+                            <ul class="list"></ul>
+                        </div>
+                        <a href="#" class="clear">Clear Tasks</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="tasks.js"></script>
+</body>
+
+</html>

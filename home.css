@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, 
+    #b8c6db 0%, #f5f7fa 74%);
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    width: 600px;
+    max-width: 100%;
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-family: inherit;
+    text-align: center;
+    margin-top: 2rem;
+}
+.nav-link{
+    
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+.create-account{
+    float: right;
+    font-size: 1.2rem;
+}
+.create-account a{
+    text-decoration: none;
+    color:teal;
+    text-transform: uppercase;
+}
+.image-area{
+    width: 100%;
+    justify-content: center;
+}
+
+.image{
+    margin: 1rem 0;
+    width: 180px;
+    border-radius: 50%;
+    border: 7px solid rgb(176,196,222);
+    
+}
+.text-wrapper{
+    margin-bottom: 4rem;
+}
+.content{
+    margin-bottom: 2rem;
+}
+.input{
+    margin-bottom: 1rem;
+    
+    
+}
+.input input{
+    padding: 10px 30px;
+    border-radius: 6px;
+    background-color: #eaeff3;
+    color: black;
+    font-size: 1rem;
+    border: 2px solid transparent;
+}
+
+
+.btn button{
+    padding: 8px 40px;
+    background-color: darkslategray;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 5px;
+}
+.btn button:hover{
+    background-color: rgb(90, 129, 129);
+    cursor: pointer;
+}
+.footer{
+    color: darkcyan;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.footer a{
+    text-decoration: none;
+}
+

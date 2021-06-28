@@ -8,13 +8,7 @@ const tasksLabel = document.getElementById('label-filter');
 const filterTask = document.querySelector('#filter');
 const listItems = document.querySelector('.list');
 const clearList = document.querySelector('.clear');
-// const filterItems = document.getElementById('filter');
-// const clearTask = document.querySelector('.list-items');
 
-const yourName = document.getElementById('name');
-let name  = "Kelly";
-
-yourName.textContent = `${name}`;
 
 loadEventListeners();
 

@@ -52,15 +52,3 @@ function submit() {
 
 
 }
-// function saveTasksToLocalStorage(task){
-//     let tasks;
-//     if(localStorage.getItem('tasks') === null) {
-//         tasks = [];
-//     }else{
-//         tasks = JSON.parse(localStorage.getItem('tasks'));
-//     }
-//     tasks.push(task);
-
-//     //add to local storage
-//     localStorage.setItem('tasks', JSON.stringify(tasks));
-// }

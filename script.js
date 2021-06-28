@@ -22,7 +22,7 @@ function loadEventListeners(){
 
     
 }
-yourName.textContent = `${name}`;
+// yourName.textContent = `${name}`;
 
 function verifyLogin(e){
     username = 'kiki';
